@@ -61,7 +61,34 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				/* Mahi Enterprises custom colors */
+				'tobacco-brown': 'hsl(var(--tobacco-brown))',
+				'tobacco-brown-light': 'hsl(var(--tobacco-brown-light))',
+				'sage-green': 'hsl(var(--sage-green))',
+				'sage-green-light': 'hsl(var(--sage-green-light))',
+				'golden-amber': 'hsl(var(--golden-amber))',
+				'golden-amber-light': 'hsl(var(--golden-amber-light))',
+				'charcoal': 'hsl(var(--charcoal))',
+				'cream': 'hsl(var(--cream))'
+			},
+			fontFamily: {
+				'heading': 'var(--font-heading)',
+				'body': 'var(--font-body)'
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-accent': 'var(--gradient-accent)'
+			},
+			boxShadow: {
+				'elegant': 'var(--shadow-elegant)',
+				'soft': 'var(--shadow-soft)',
+				'glow': 'var(--shadow-glow)'
+			},
+			transitionProperty: {
+				'smooth': 'var(--transition-smooth)',
+				'fast': 'var(--transition-fast)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

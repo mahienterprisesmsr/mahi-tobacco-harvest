@@ -8,35 +8,70 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Mahi Enterprises earthy color palette */
+    --background: 42 15% 98%;
+    --foreground: 20 15% 8%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 42 20% 96%;
+    --card-foreground: 20 15% 8%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 42 20% 96%;
+    --popover-foreground: 20 15% 8%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Rich earth brown as primary */
+    --primary: 25 45% 25%;
+    --primary-foreground: 42 15% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Warm cream as secondary */
+    --secondary: 42 25% 88%;
+    --secondary-foreground: 25 45% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Soft sage green as muted */
+    --muted: 95 15% 88%;
+    --muted-foreground: 25 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Golden amber as accent */
+    --accent: 35 85% 65%;
+    --accent-foreground: 25 45% 25%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Deep burgundy for destructive */
+    --destructive: 0 65% 35%;
+    --destructive-foreground: 42 15% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Sophisticated borders */
+    --border: 42 20% 85%;
+    --input: 42 20% 92%;
+    --ring: 35 85% 65%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Custom design tokens */
+    --tobacco-brown: 25 45% 25%;
+    --tobacco-brown-light: 25 35% 35%;
+    --sage-green: 95 25% 45%;
+    --sage-green-light: 95 15% 75%;
+    --golden-amber: 35 85% 65%;
+    --golden-amber-light: 35 65% 85%;
+    --charcoal: 20 15% 15%;
+    --cream: 42 25% 95%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--tobacco-brown)) 0%, hsl(var(--sage-green)) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(var(--cream)) 0%, hsl(var(--background)) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(var(--golden-amber)) 0%, hsl(var(--accent)) 100%);
+
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--tobacco-brown) / 0.2);
+    --shadow-soft: 0 4px 20px -8px hsl(var(--charcoal) / 0.15);
+    --shadow-glow: 0 0 40px hsl(var(--golden-amber) / 0.3);
+
+    /* Typography */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.2s ease-out;
 
     --sidebar-background: 0 0% 98%;
 
