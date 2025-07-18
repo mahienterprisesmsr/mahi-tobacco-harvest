@@ -29,7 +29,7 @@ const About = () => {
 
   const teamMembers = [
     {
-      name: "Maseed Shaik Rasool Shareef",
+      name: "Mahimudh Arief",
       role: "Founder & CEO",
       expertise: "30+ years in tobacco cultivation and international trade",
       image: "/api/placeholder/300/300"
@@ -71,7 +71,7 @@ const About = () => {
             </h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Founded in 1990 by Maseed Shaik Rasool Shareef, our company began with a simple vision: to create 
+                Founded in 1990 by Mahimudh Arief, our company began with a simple vision: to create 
                 lasting partnerships with tobacco farming families while delivering premium quality 
                 tobacco to international markets.
               </p>
@@ -161,7 +161,7 @@ const About = () => {
             "Our mission is to honor the heritage of tobacco cultivation while building sustainable 
             partnerships that benefit farmers, businesses, and communities worldwide."
           </blockquote>
-          <cite className="text-golden-amber font-semibold">- Maseed Shaik Rasool Shareef, Founder & CEO</cite>
+          <cite className="text-golden-amber font-semibold">- Mahimudh Arief, Founder & CEO</cite>
         </div>
       </div>
     </section>
