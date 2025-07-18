@@ -41,7 +41,7 @@ const About = () => {
       image: "/api/placeholder/300/300"
     },
     {
-      name: "Jakir Hussian and Meera Mohindin",
+      name: "Jakir Hussian",
       role: "Sourcing Manager",
       expertise: "Direct farmer relationships and supply chain optimization",
       image: "/api/placeholder/300/300"
