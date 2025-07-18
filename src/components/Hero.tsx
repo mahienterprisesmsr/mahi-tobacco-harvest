@@ -60,6 +60,7 @@ const Hero = () => {
               variant="outline" 
               size="lg"
               className="border-cream text-cream hover:bg-cream hover:text-charcoal transition-all duration-300"
+              onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Learn Our Story
             </Button>
