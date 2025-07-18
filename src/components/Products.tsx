@@ -186,7 +186,14 @@ const Products = () => {
           <p className="text-muted-foreground mb-6">
             Need a custom blend or have specific requirements?
           </p>
-          <Button size="lg" className="bg-gradient-accent text-primary font-semibold hover:shadow-glow">
+          <Button 
+            size="lg" 
+            className="bg-gradient-accent text-primary font-semibold hover:shadow-glow"
+            onClick={() => {
+              const contactSection = document.getElementById('contact');
+              contactSection?.scrollIntoView({ behavior: 'smooth' });
+            }}
+          >
             Request Custom Quote
           </Button>
         </div>
