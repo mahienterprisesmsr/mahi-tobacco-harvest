@@ -41,7 +41,7 @@ const About = () => {
       image: "/api/placeholder/300/300"
     },
     {
-      name: "Kumar Patel",
+      name: "Jakir Hussian and Meera Mohindin",
       role: "Sourcing Manager",
       expertise: "Direct farmer relationships and supply chain optimization",
       image: "/api/placeholder/300/300"
