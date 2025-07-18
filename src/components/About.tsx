@@ -35,7 +35,7 @@ const About = () => {
       image: "/api/placeholder/300/300"
     },
     {
-      name: "Dr. Priya Sharma",
+      name: "Mahimudh Arief",
       role: "Quality Control Director",
       expertise: "Agricultural sciences and tobacco processing specialist",
       image: "/api/placeholder/300/300"
