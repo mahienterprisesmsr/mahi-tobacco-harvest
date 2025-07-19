@@ -42,13 +42,6 @@ const QualityControl = () => {
     }
   ];
 
-  const certifications = [
-    "ISO 9001:2015 Quality Management",
-    "HACCP Food Safety Standards",
-    "Organic Certification (Selected Products)",
-    "Fair Trade Compliance",
-    "Export Quality Certification"
-  ];
 
   const testimonials = [
     {
@@ -122,22 +115,6 @@ const QualityControl = () => {
           ))}
         </div>
 
-        {/* Certifications */}
-        <div className="text-center mb-20">
-          <h3 className="text-3xl font-heading font-semibold text-primary mb-8">
-            Certifications & Standards
-          </h3>
-          <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-4">
-            {certifications.map((cert, index) => (
-              <Card key={index} className="border-border bg-background hover:bg-sage-green-light hover:shadow-soft transition-all duration-300">
-                <CardContent className="p-6 text-center">
-                  <Award className="w-8 h-8 text-golden-amber mx-auto mb-3" />
-                  <p className="text-sm font-medium text-primary">{cert}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
 
         {/* Testimonials */}
         <div>
