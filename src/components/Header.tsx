@@ -19,8 +19,8 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-accent rounded-lg flex items-center justify-center">
-              <span className="text-primary font-bold text-xl">M</span>
+            <div className="w-12 h-10 bg-gradient-accent rounded-lg flex items-center justify-center">
+              <span className="text-primary font-bold text-lg tracking-tight">ME</span>
             </div>
             <div>
               <h1 className="text-xl font-heading font-bold text-primary">Mahi Enterprises</h1>
