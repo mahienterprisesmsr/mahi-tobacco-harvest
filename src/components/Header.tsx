@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import logo from '@/assets/mahi-logo.jpg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,8 +20,12 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-10 bg-gradient-accent rounded-lg flex items-center justify-center">
-              <span className="text-primary font-bold text-lg tracking-tight">ME</span>
+            <div className="w-12 h-10 rounded-lg overflow-hidden flex items-center justify-center bg-white/10 backdrop-blur-sm border border-white/20">
+              <img 
+                src={logo} 
+                alt="Mahi Enterprises Logo" 
+                className="w-10 h-8 object-contain filter sepia-[0.3] hue-rotate-[15deg] saturate-[1.2] brightness-[0.9]"
+              />
             </div>
             <div>
               <h1 className="text-xl font-heading font-bold text-primary">Mahi Enterprises</h1>
